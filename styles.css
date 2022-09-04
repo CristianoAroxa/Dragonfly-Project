@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Sarala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Sarala:wght@400;700&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #cc53b2 16.62%, #680950 85.61%);
+}
+
+.cabecalho {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+padding: 20px;
+}
+
+.cabecalho-imagem {
+    height: 60px;
+
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'sarala', sans-serif;
+    color: blanchedalmond;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #fff2e7; 
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 400;
+    font-size: 64px;
+    color: blanchedalmond;
+}
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'sarala', sans-serif;
+    font-weight: 400;
+    color: blanchedalmond;
+    font-size: 24px;
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: aliceblue;
+    width: 200px;
+    height: 30px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.28);
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #9e6dec;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: rgba(236,214,196,0.53);
+}
+
+.conteudo-principal-imagem {
+    height: 300px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.conteudo-secundadrio-titulo {
+    border-top: 0.4px solid #fff2e7;
+    padding: 35px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 400;
+    font-size: 60px;
+    color: blanchedalmond;
+    margin-bottom: 15px;
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: 'sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: blanchedalmond;
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #fff2e7;
+}
+
+.rodape-imagem {
+    height: 40px;
+    display: block;
+    margin: 0, auto;
+}
